@@ -1,0 +1,167 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+  width: 100%;
+ 
+    min-height: 100%;
+    background: url("./assets/dnd-background.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.logo_home{
+  /* height: 500px;
+    width:500px;*/
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
+}
+
+.pokemon_overview_page {
+    height: 15px;
+    width: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.header_img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff 
+}
+
+.home_btn {
+  margin-left: 40%;
+  margin-right: auto;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  padding: 15px 25px;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #CF9848;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #1B150F;
+}
+.home_btn :hover {
+  background-color: #B07C43;
+  
+}
+
+.home_btn :active {
+  background-color: #C89A4D;
+  box-shadow: 0 5px #1B150F;
+  transform: translateY(4px);
+}
+
+  .title{
+    color: #fff;
+    text-align: center;
+    width:auto ;
+    text-transform: uppercase;
+  }
+
+  .edit_form{
+    margin-left: 40%;
+    margin-right: 50%;
+    
+  }
+
+  .colorWrap{
+    background-color: #312A28;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 30px 0px 30px 0px;
+
+  }
+
+
+
+  form p{
+    background-color: #312A28;
+    font-family: fantasy;
+    width:120px;
+    letter-spacing: 1px;
+    color:#fff;
+    font-size: 20px;
+    margin-bottom: 5px;
+    padding:4px 20px;
+    text-align: center;
+
+  }
+
+  form input{
+    color:#fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgba(26,15,0,0.8);
+    border: none;
+    width:160px;
+    height:30px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .typewriter h1 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid #221D2A; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  .form_btn{
+    
+    margin-right: auto;
+    margin-top: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 1px 2px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #CF9848;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #1B150F;
+
+  }
+
+
+  .align_center{
+    text-align: center;
+  }
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 30% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #221D2A; }
+  }
+
+  .btn_align_left{
+    align-self: auto;
+  }
+
+ 
